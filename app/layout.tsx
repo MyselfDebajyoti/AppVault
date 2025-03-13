@@ -14,7 +14,7 @@ import { Manrope } from "next/font/google";
 //   subsets: ["latin"],
 // });
 
-export const manrope = Manrope({
+const manrope = Manrope({
   subsets: ["latin"],
   display: "swap",
   variable: "--font-manrope",
