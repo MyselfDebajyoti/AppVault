@@ -23,17 +23,17 @@ export default function LandingHero() {
       </nav>
 
       {/* Main content centered */}
-      <div className="flex-grow flex items-center justify-center p-6">
+      <div className="flex-grow flex items-center justify-center p-6 pt-20">
         <div className="max-w-4xl w-full text-center">
           {/* Heading */}
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-700 mb-4">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-700 mb-4">
             Your photo gallery is a mess!
             <br />
             We can fix it.
           </h1>
 
           {/* Subheading */}
-          <p className="text-xl text-gray-600 mb-12">
+          <p className=" text-md md:text-xl text-gray-600 mb-12">
             AirVault is the easiest way to capture and relive your memories.
           </p>
 

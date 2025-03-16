@@ -65,22 +65,22 @@ import Link from "next/link";
 
 export default function FeaturesSection() {
   return (
-    <div className="bg-white py-16 md:pb-24 md:pt-10">
+    <div className="bg-white md:pb-24 md:pt-10">
       <div className="container mx-auto px-6 max-w-6xl">
         <div className="flex flex-col items-center">
           {/* Text Content - Top for both desktop and mobile */}
           <div className="w-full text-center mb-16 max-w-5xl mx-auto">
-            <p className="text-gray-600 mb-2 text-3xl">
-              AirVault doesn't just store your media.
+            <p className="text-gray-600 mb-2 md:text-3xl text-xl">
+              AirVault doesn&apos;t just store your media.
             </p>
-            <h1 className="text-5xl md:text-6xl font-bold text-gray-700 mb-4">
+            <h1 className="text-4xl md:text-6xl font-bold text-gray-700 mb-4">
               We track your memories.
             </h1>
-            <p className="text-gray-600 mb-8 text-lg">
+            <p className="text-gray-600 mb-8 md:text-lg text-sm">
               Your entire life-story right at your fingertips.
             </p>
             <Link href="/signup">
-              <button className="bg-[#F47142] hover:bg-[#E45E30] text-white font-medium py-2 px-6 rounded-full transition duration-300">
+              <button className="bg-[#FF6A00] hover:bg-[#E45E30] text-white font-medium py-2 px-6 rounded-full transition duration-300">
                 Try AirVault Now
               </button>
             </Link>

@@ -76,14 +76,14 @@ import Image from "next/image";
 
 const HeroSection = () => {
   return (
-    <div className="bg-white py-16 px-4 sm:px-6 lg:px-8">
+    <div className="bg-white pt-8 px-4 sm:px-6 lg:px-8 md:pt-16">
       <div className="max-w-6xl mx-auto">
         {/* Hero Text Section */}
-        <div className="text-center mb-12">
-          <h1 className="text-5xl md:text-6xl font-bold text-gray-700 mb-4">
-            The best moments are the<br></br> ones you share
+        <div className="text-center mb-0 md:mb-12">
+          <h1 className="text-4xl md:text-6xl font-bold text-gray-700 mb-4">
+            The best moments are the ones you share
           </h1>
-          <p className="text-lg md:text-xl text-gray-600 mb-8">
+          <p className="text-md md:text-xl text-gray-600 mb-8">
             Share your memories with your friends and family with a single
             click.
           </p>
@@ -97,7 +97,7 @@ const HeroSection = () => {
           {/* Mobile Image - Only visible on small screens */}
           <div className="block md:hidden relative h-full w-full">
             <Image
-              src="/Frame 1000003861.png"
+              src="/Frame 1000003861 (1).png"
               alt="AirVault on mobile"
               fill
               className="object-contain"
